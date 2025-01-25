@@ -5,7 +5,7 @@ def main():
 
     # Dropdown to select a model name
     model_names = [
-        "Xception",
+       "Xception",
         "VGG16",
         "VGG19",
         "ResNet50",
@@ -21,28 +21,7 @@ def main():
         "DenseNet121",
         "DenseNet169",
         "DenseNet201",
-        "NASNetMobile",
-        "NASNetLarge",
-        "EfficientNetB0",
-        "EfficientNetB1",
-        "EfficientNetB2",
-        "EfficientNetB3",
-        "EfficientNetB4",
-        "EfficientNetB5",
-        "EfficientNetB6",
-        "EfficientNetB7",
-        "EfficientNetV2B0",
-        "EfficientNetV2B1",
-        "EfficientNetV2B2",
-        "EfficientNetV2B3",
-        "EfficientNetV2S",
-        "EfficientNetV2M",
-        "EfficientNetV2L",
-        "ConvNeXtTiny",
-        "ConvNeXtSmall",
-        "ConvNeXtBase",
-        "ConvNeXtLarge",
-        "ConvNeXtXLarge"
+        "NewModel"  # Added new model
     ]
 
     selected_model = st.selectbox("Select Model ", model_names)
