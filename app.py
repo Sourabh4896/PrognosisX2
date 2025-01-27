@@ -43,7 +43,7 @@ def main():
   
         
 
-    # Submit button
+    # It works as a Submit button 
     if st.button("Submit"):
         # Process the data when the button is clicked
         st.write("Selected Model:", selected_model)
